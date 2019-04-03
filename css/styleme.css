@@ -37,10 +37,16 @@ h3 {
     margin: 20px 10px;
     color: blue;
     font-size: 25px;
+    font-family: "Times New Roman";
 }
 
 a {
     color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .white-text{
@@ -48,6 +54,12 @@ a {
     margin-bottom: 20px;
     line-height: 1.5;
     color: white;
+    font-family: Tahoma;
+}
+
+span {
+    line-height: 1.5;
+    color: yellow;
 }
 
 .italic-text {

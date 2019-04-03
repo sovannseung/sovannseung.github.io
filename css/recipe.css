@@ -1,0 +1,130 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    font-family: Georgia, Serif ;
+    font-size: 11pt;
+
+    background-image: url("../img/silverware.jpg");
+    width: 1024px;
+    margin: 0px auto;
+    color: #A4A400;
+
+}
+
+.heading-header{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, SansSerif;
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.heading-child{
+    text-align: left;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+img {
+    margin: 15px 0px;
+}
+
+body >p {
+    color: black;
+}
+
+ul, li {
+    color: black;
+}
+
+.tooltip{
+    border-bottom: 1px dotted black;
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+ol li span {
+    font-weight: bold;
+}
+
+.user-comment{
+    background-color: #FFFFA8;
+    font-style: italic;
+    text-align: left;
+    margin: 10px 20px;
+}
+
+.delete{
+    text-decoration: line-through;
+}
+
+.user-comment .line1{
+    margin-bottom: 10px;
+}
+
+.user-comment span{
+    font-weight: bold;
+    color: black;
+}
+
+.link{
+    margin-top: 30px;
+    width: 300px;
+    color: #A4A400;
+}
+
+.link-search{
+    color: #A4A400;
+    font-style: italic;
+    margin-top:40px;
+    margin-left: 5px;
+}
+
+.link-copyright{
+    color: black;
+    text-align: right;
+    font-family: monospace;
+}
