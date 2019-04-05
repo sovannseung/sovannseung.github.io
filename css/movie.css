@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    background-image: url("../img/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, SansSerif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner-top{
+    background-image: url("../img/bannerbg.png");
+    text-align: center;
+}
+
+.movie-name{
+    font-family: Tahoma, Verdana, SansSerif;
+    font-size: 24pt;
+    font-weight: bold;
+    text-shadow: 3px 3px #999999;
+    text-align: center;
+    margin: 12px;
+}
+
+.content{
+    width: 800px;
+    margin: 0px auto;
+    border: 4px solid gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.content-left{
+    width: 550px;
+    margin: 0px;
+    float: left;
+}
+
+.content-right{
+    width: 250px;
+    background-color: #A2B964;
+    font-size: 8pt;
+    float: right;
+    font-family: Arial, SansSerif;
+}
+
+.content-left-top{
+    height: 83px;
+    background-image: url("../img/rbg.png");
+}
+
+.content-left-rotten{
+    display: inline-block;
+    vertical-align: text-bottom;
+    overflow: hidden;
+    border-top-left-radius: 17px;
+}
+
+.content-left-rotten-text{
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#column-left{
+    width: 47%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: inline-block;
+}
+
+#column-right{
+    width: 47%;
+    margin-left: 1%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.review-box{
+    margin-top: 7px;
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 8px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.like-dislike-icon{
+    float: left;
+    margin: 5px;
+    vertical-align: text-top;
+}
+
+.personal-info{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.reviewer-icon{
+    float: left;
+    margin-right: 5px;
+}
+
+.italic-text{
+    font-style: italic;
+}
+
+dt{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    line-height: 10pt;
+}
+
+dd{
+    margin-left: 30px;
+}
+
+.bottom{
+
+    background-color: #A2B964;
+    text-align: center;
+    clear: both;
+}
+
+.w3c-html{
+    position: fixed;
+    opacity: 50%;
+    right: 5px;
+    bottom: 45px;
+}
+
+.w3c-css{
+    position: fixed;
+    opacity: 50%;
+    right: 5px;
+    bottom: 5px;
+}
