@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swap Image</title>
+
+    <script>
+        function clickme() {
+            var image = document.getElementById("myimg");
+            if(image.src = "img/sad.png")
+                 image.src = "img/happy.jpg";
+            else
+                 image.src = "img/sad.png";
+
+        }
+    </script>
+</head>
+<body>
+    <img style="width: 200px; height: 200px;" src="img/sad.png" id="myimg"/>
+    <button onclick="clickme();"> SWAP </button>
+</body>
+</html>
