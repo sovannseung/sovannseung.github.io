@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task List</title>
+    <link rel="stylesheet" href="css/tasklist.css">
+
+</head>
+<body>
+    <form action="" method="post">
+        <label>
+            Task
+            <br/>
+            <input size="55" type="text" name="task" placeholder="Breakfast at Titfanys"/>
+        </label> <br/>
+
+        <label>
+            Required by
+            <br/>
+            <input type="date" name="required_by"/>
+        </label> <br/>
+        <label>
+            Category
+            <br/>
+            <select name="category">
+                <option selected value="personal">Personal</option>
+                <option value="work">Work</option>
+                <option value="pair">Pair</option>
+                <option value="other">Other</option>
+            </select>
+        </label>
+        <div>
+            <input type="submit" value="Save Task"/>
+            <input type="reset" value="Clear task"/>
+        </div>
+        <table>
+            <tr>
+                <th> Name </th>
+                <th> Due </th>
+                <th> Category </th>
+            </tr>
+            <tr>
+                <td> Return library book </td>
+                <td> 2013-10-14 </td>
+                <td> Personal </td>
+            </tr>
+            <tr>
+                <td> Perform project demo to stakeholders </td>
+                <td> 2013-10-14 </td>
+                <td> Work </td>
+            </tr>
+            <tr>
+                <td> Meet friends for dinner </td>
+                <td> 2013-10-14 </td>
+                <td> Personal </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
