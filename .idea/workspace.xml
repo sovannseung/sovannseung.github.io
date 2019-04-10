@@ -27,7 +27,25 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="383">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab05 - JavaScript Intro.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/JavaStriptIntro.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -94,7 +112,6 @@
         <option value="$PROJECT_DIR$/responsive.html" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/swap.html" />
-        <option value="$PROJECT_DIR$/js/JavaStriptIntro.js" />
         <option value="$PROJECT_DIR$/Lab05 - JavaScript Intro.html" />
         <option value="$PROJECT_DIR$/self learning/blog post/original/index.html" />
         <option value="$PROJECT_DIR$/self learning/blog post/original/style.css" />
@@ -108,6 +125,7 @@
         <option value="$PROJECT_DIR$/ascii.html" />
         <option value="$PROJECT_DIR$/js/animations.js" />
         <option value="$PROJECT_DIR$/js/ascii.js" />
+        <option value="$PROJECT_DIR$/js/JavaStriptIntro.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -196,12 +214,12 @@
       <workItem from="1554571898760" duration="1351000" />
       <workItem from="1554603691274" duration="806000" />
       <workItem from="1554643805197" duration="6029000" />
-      <workItem from="1554853952105" duration="5133000" />
+      <workItem from="1554853952105" duration="6986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67871000" />
+    <option name="totallyTimeSpent" value="69724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -335,13 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab05 - JavaScript Intro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/recipe.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -354,7 +365,6 @@
     <entry file="file://$PROJECT_DIR$/self learning/blog post/index.html" />
     <entry file="file://$PROJECT_DIR$/self learning/blog post/style.css" />
     <entry file="file://$PROJECT_DIR$/setInterval.html" />
-    <entry file="file://$PROJECT_DIR$/js/JavaStriptIntro.js" />
     <entry file="file://$PROJECT_DIR$/js/setInterval.js" />
     <entry file="file://$PROJECT_DIR$/decoratemytext.html" />
     <entry file="file://$PROJECT_DIR$/js/decoratemytext.js" />
@@ -389,10 +399,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lab05 - JavaScript Intro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/JavaStriptIntro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
         </state>
       </provider>
     </entry>

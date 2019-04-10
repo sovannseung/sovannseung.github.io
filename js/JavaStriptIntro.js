@@ -67,6 +67,15 @@ console.log("Expected output of sum([1,2,3,4]) is 10  " + myFunctionTest(10, fun
     return sum([1,2,3,4]);
 }));
 
+function sum_reimplement(arr) {
+    return arr.reduce(function(total, currentValue, currentIndex, arr){
+        return total + currentValue;
+    }, 0);
+}
+console.log("***** Expected output of sum_reimplement([1,2,3,4]) is 10  " + myFunctionTest(10, function () {
+    return sum_reimplement([1,2,3,4]);
+}));
+
 function multiply(arr) {
     let total=1;
     for(let i=0; i<arr.length; i++){
@@ -78,6 +87,15 @@ console.log("Expected output of multiply([1,2,3,4]) is 24  " + myFunctionTest(24
     return multiply([1,2,3,4]);
 }));
 
+function multiply_reimplement(arr) {
+    return arr.reduce(function (total, currentValue, currentIndex, arr) {
+        return total * currentValue
+    }, 1);
+}
+console.log("***** Expected output of multiply_reimplement([1,2,3,4]) is 24  " + myFunctionTest(24, function () {
+    return multiply_reimplement([1,2,3,4]);
+}));
+
 function reverse(str){
     let result="";
     for(let i=str.length; i>=0; i--){
@@ -87,6 +105,13 @@ function reverse(str){
 }
 console.log("Expected output of reverse(\"jag testar\") is \"ratset gaj\"  " + myFunctionTest("ratset gaj", function () {
     return reverse("jag testar");
+}));
+
+function reverse_reimplement(str){
+    return str.split("").reverse().join("");
+}
+console.log("***** Expected output of reverse_reimplement(\"jag testar\") is \"ratset gaj\"  " + myFunctionTest("ratset gaj", function () {
+    return reverse_reimplement("jag testar");
 }));
 
 function findLongestWord(arr){
@@ -111,6 +136,13 @@ function filterLongWords(arr, i) {
 }
 console.log("Expected output of filterLongWords(['Hello','How', 'Are', 'Holiday'], 4) is Hello,Holiday  " + myFunctionTest(["Hello","Holiday"], function () {
     return filterLongWords(['Hello','How', 'Are', 'Holiday'],4);
+}));
+
+function filterLongWords_reimplement(arr, i) {
+    return arr.filter(s=> s.length > i);
+}
+console.log("***** Expected output of filterLongWords_reimplement(['Hello','How', 'Are', 'Holiday'], 4) is Hello,Holiday  " + myFunctionTest(["Hello","Holiday"], function () {
+    return filterLongWords_reimplement(['Hello','How', 'Are', 'Holiday'],4);
 }));
 
 let arr = [1,3,5,3,3];
