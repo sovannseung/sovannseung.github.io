@@ -3,52 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Midterm Program Practice</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/midterm_practice.js"></script>
 </head>
 <body>
-    <div>
-        <label> Name
-            <input id="txtName" type="text"/>
-        </label>
-    </div>
-    <div>
-        <label> Street
-            <input id="txtStreet" type="text"/>
-        </label>
-    </div>
-    <div>
-        <label> State
-            <select id="optState">
-                <option value="CA"> CA </option>
-                <option value="IA"> IA </option>
-                <option value="VA"> VA </option>
-            </select>
-        </label>
-    </div>
-    <div>
-        <label> Zip Code
-            <input id="txtZipCode" type="text"/>
-        </label>
-    </div>
-    <div>
-        <label> How many seats?
-            <input id="txtSeats" type="text"/>
-        </label>
-    </div>
-    <div>
-        <fieldset>
-            <legend> Which taxi do you require? </legend>
-            <label> <input id="rdoTaxi" type="radio" name="taxi" value="Car"/> Car </label> <br/>
-            <label> <input id="rdoVan" type="radio" name="taxi" value="Van"/> Van </label> <br/>
-            <label> <input id="rdoTukTuk" type="radio" name="taxi" value="TukTuk"/> Tuk Tuk </label>
-        </fieldset>
-    </div>
-    <div>
-        <fieldset>
-            <legend> Extras </legend>
-            <label> <input id="chkBabySeat" type="checkbox"/> Baby Seat </label> <br/>
-            <label> <input id="chkWheel" type="checkbox"/> Wheel Chair Access </label> <br/>
-            <label> <input id="chkStock" type="checkbox"/> Stock Tip </label>
-        </fieldset>
-    </div>
+    <form id="form-submit">
+        <div id="error" style="color: red;">
+
+        </div>
+        <div>
+            <label> Name
+                <input id="txtName" type="text"/>
+            </label>
+        </div>
+        <div>
+            <label> Street
+                <input id="txtStreet" type="text"/>
+            </label>
+        </div>
+        <div>
+            <label> State
+                <select id="optState">
+                    <option value="CA"> CA </option>
+                    <option value="IA"> IA </option>
+                    <option value="VA"> VA </option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label> Zip Code
+                <input id="txtZipCode" type="text"/>
+            </label>
+        </div>
+        <div>
+            <label> How many seats?
+                <input id="txtSeats" type="text"/>
+            </label>
+        </div>
+        <div>
+            <fieldset>
+                <legend> Which taxi do you require? </legend>
+                <label> <input id="rdoTaxi" type="radio" name="taxi" value="Car"/> Car </label> <br/>
+                <label> <input id="rdoVan" type="radio" name="taxi" value="Van"/> Van </label> <br/>
+                <label> <input id="rdoTukTuk" type="radio" name="taxi" value="TukTuk"/> Tuk Tuk </label>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend> Extras </legend>
+                <label> <input id="chkBabySeat" type="checkbox"/> Baby Seat </label> <br/>
+                <label> <input id="chkWheel" type="checkbox"/> Wheel Chair Access </label> <br/>
+                <label> <input id="chkStock" type="checkbox"/> Stock Tip </label>
+            </fieldset>
+        </div>
+        <div>
+            <label> Special Instruction <br/>
+                <textarea rows="3" columns="9"></textarea>
+            </label>
+        </div>
+        <div>
+            <input id="cmdSubmit" type="submit" value="Submit Me"/>
+
+
+        </div>
+    </form>
 </body>
 </html>
