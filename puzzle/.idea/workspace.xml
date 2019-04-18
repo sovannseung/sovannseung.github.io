@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="puzzle:war" />
+      <artifact name="Lab12:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57a48cd5-d1e6-4d32-a1a0-1bd12bb9b08c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Test/JSPDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/JSPDemo/src/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/Midterm/inheritance.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/Midterm/inheritance.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/Midterm/inheritance2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/Midterm/inheritance2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/Midterm/revealmodule.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/Midterm/revealmodule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/Midterm/review.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/Midterm/review.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/Midterm/review.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="76ffe437-deeb-4ea5-bc4e-810e21ff7731" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,28 +22,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/indexMVC.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state>
+              <caret selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/style.css">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="160">
+              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PlayMVC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="271">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,13 +52,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/getCookie.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Play.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+            <state relative-caret-position="271">
+              <caret line="63" column="116" selection-start-line="61" selection-start-column="20" selection-end-line="63" selection-end-column="116" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resultMVC.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -79,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Quiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="20">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -91,24 +87,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="CSS File" />
+        <option value="Jsp File" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/target/puzzle/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/question.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/style.css" />
         <option value="$PROJECT_DIR$/src/main/java/Quiz.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/getCookie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Play.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/indexMVC.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resultMVC.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/PlayMVC.java" />
       </list>
     </option>
   </component>
@@ -126,45 +118,46 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-15" />
-    <option name="width" value="2370" />
-    <option name="height" value="2075" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="382" />
+    <option name="y" value="822" />
+    <option name="width" value="1920" />
+    <option name="height" value="2060" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="puzzle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="puzzle" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab12" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="puzzle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="puzzle" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab12" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="puzzle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="puzzle" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab12" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="puzzle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="puzzle" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab12" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="puzzle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="puzzle" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab12" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -174,21 +167,16 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MUM\6. WAP\Homework\seyha.wap.github.io\lab12\puzzle\src\main\java" />
-      <recent name="D:\MUM\6. WAP\Homework\seyha.wap.github.io\lab12\puzzle\src\main\webapp" />
-    </key>
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,17 +192,17 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/puzzle/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Lab12_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="puzzle:war">
+        <artifact name="Lab12:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/puzzle" />
+            <option name="CONTEXT_PATH" value="/Lab12_war" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_puzzle" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Lab12_4" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -222,7 +210,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49948" />
+        <option name="DEBUG_PORT" value="30328" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -272,7 +260,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="puzzle:war" />
+          <artifact name="Lab12:war" />
         </option>
       </method>
     </configuration>
@@ -282,20 +270,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="57a48cd5-d1e6-4d32-a1a0-1bd12bb9b08c" name="Default Changelist" comment="" />
-      <created>1555440840922</created>
+      <changelist id="76ffe437-deeb-4ea5-bc4e-810e21ff7731" name="Default Changelist" comment="" />
+      <created>1555512009255</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1555440840922</updated>
-      <workItem from="1555440844869" duration="17404000" />
+      <updated>1555512009255</updated>
+      <workItem from="1555512012924" duration="9328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17404000" />
+    <option name="totallyTimeSpent" value="9328000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="948" height="830" extended-state="0" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -304,19 +292,19 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.033632286" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32952926" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32909605" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32952926" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19971469" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26694915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -336,58 +324,55 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/puzzle/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="26" />
+        <state relative-caret-position="213">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Quiz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="20">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Play.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/getCookie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        <state relative-caret-position="271">
+          <caret line="63" column="116" selection-start-line="61" selection-start-column="20" selection-end-line="63" selection-end-column="116" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="160">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/indexMVC.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resultMVC.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PlayMVC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -397,9 +382,64 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ProjectJDKs.UI">
+      <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
