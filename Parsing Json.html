@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Parsing JSON </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <input type="button" id="btn" value="Display all users" />
+    <div id="mytable">
+
+    </div>
+</body>
+
+<script>
+    $(document).ready(function () {
+        $('#btn').click(function() {
+            $.ajax({
+                "url": "http://jsonplaceholder.typicode.com/users",
+                "type": "GET",
+                "dataType": "json",
+                "success": myAjaxSuccessFunction,
+                "error": ajaxFailure
+            });
+        });
+
+        function myAjaxSuccessFunction(data) {
+            alert(data[0].name);
+            $('#mytable').empty();
+            $('#mytable').append('<table>');
+            $('#mytable').append('<tr> <th>Id</th> <th>User Name </th> <th> Email </th> </tr>');
+
+            for(var i=0; i<data.length; i++){
+                $('#mytable').append('<tr> <td> ' + data[i].id + ' </td> <td> ' + data[i].username + ' </td> <td> ' + data[i].email + ' </td>  </tr>');
+            }
+
+            $('#mytable').append('</table>');
+        }
+
+        function ajaxFailure(xhr, status, exception) {
+            console.log(xhr, status, exception);
+        }
+    });
+</script>
+
+</html>
+
